@@ -1,0 +1,23 @@
+JavaScript API Promises Async Await
+
+API: application programming interface
+    communication between applications
+
+github.com/public-apis/public-apis
+
+animals
+
+Dogs
+
+Documentation --> 
+
+- LIST ALL BREEDS  -->  copy url --> you will get all breeds
+
+- By breed --> copy url --> you will get images
+
+
+
+
+
+
+
