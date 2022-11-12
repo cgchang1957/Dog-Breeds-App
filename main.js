@@ -88,3 +88,7 @@ function createSlideshow(images) {
     }
   }
 }
+
+function stopSlideshow () {
+  location.reload();
+}

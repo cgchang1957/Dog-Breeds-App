@@ -6,6 +6,7 @@ body {
 .app {
     height: 600px;
     width: 100%;
+    max-width: 900px;
     display: flex;
     flex-direction:column; 
 }
@@ -48,4 +49,20 @@ body {
 .slide:nth-last-child(2) {
     opacity: 1; 
     transform: scale(1.08);
+}
+
+.controls {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#breed {
+    flex: 1;
+
+}
+
+.stop {
+    flex: 1;
+
 }
