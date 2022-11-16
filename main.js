@@ -27,7 +27,7 @@ async function start() {
 start();
 
 function createBreedList(breedList) {
-  document.getElementById("breed").innerHTML = `
+  document.getElementById("breed").innerHTML = `<pre>
     <select onchange="loadByBreed(this.value)">
         <option>Choose a dog breed</option>
         ${Object.keys(breedList)
@@ -35,7 +35,7 @@ function createBreedList(breedList) {
             return `<option>${breed}</option>`;
           })
           .join("")}
-    </select>    
+    </select>    <input class="stop-button" type="submit" value="Stop Slidshow" onclick="stopSlideshow()" >   </pre>
     `;
 }
 
@@ -89,6 +89,6 @@ function createSlideshow(images) {
   }
 }
 
-function stopSlideshow () {
+function stopSlideshow() {
   location.reload();
 }
